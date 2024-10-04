@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # JavaScript Array Iterations: Accessing, Modifying, and Deleting Objects
 ![JavaScript code snippet showing examples of accessing, modifying, and deleting values from arrays of objects](./assets/images/example.png)
 
@@ -136,6 +135,7 @@ Make: Tesla, Model: Model 3, Year: 2020
   { make: 'Tesla', model: 'Model 3', year: 2020 }
 ]
 [
+  { make: 'Toyota', model: 'Corolla', year: 2015 },
   { make: 'Tesla', model: 'Model 3', year: 2020 }
 ]
 ```
@@ -292,7 +292,7 @@ In this assignment, you learned how to work with arrays of objects in JavaScript
 
 💾 **Not something to copy and paste** 💾
 
-**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-06-arrays-2/tree/solution) (link not shown).
+**Note:**  This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-07-objects-iterating/tree/solution) (link not shown).
 
 
 ---
