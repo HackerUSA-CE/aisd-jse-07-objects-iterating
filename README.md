@@ -260,7 +260,6 @@ node index.js
 
 ```bash
 Newest car: { make: 'Tesla', model: 'Model 3', year: 2020 }
-
 ```
 
 **Explanation:**
