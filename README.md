@@ -151,7 +151,7 @@ Make: Tesla, Model: Model 3, Year: 2020
 ##
 
 ### 4. **Deleting Specific People: Filter Method**
-You will now apply the same filter method used in the cars example to delete people from the people array based on specific conditions. In this case, let’s remove people who are older than 30.
+You will now apply the same filter method used in the cars example to delete people from the people array based on specific conditions. In this case, we will remove people who are older than 30. Take note of what happens to Bob, as we previously changed his age to 31, which will affect the output.
 
  - [ ] Add the following code to your index.js file:
 
@@ -172,15 +172,17 @@ node index.js
 ```bash
 [
   { name: 'Alice', age: 25, occupation: 'Engineer' },
-  { name: 'Bob', age: 31, occupation: 'Senior Designer' }
 ]
 ```
 
 **Explanation:**
 
-- **Filter Method for Deletion:** The filter method is an efficient way to remove elements from an array based on a specific condition. In this case, we are filtering out any people older than 30 by using the condition person.age <= 30. The result is a new array (remainingPeople) that only contains the people who meet the age requirement.
+**Explanation:**
 
-##
+- **Filter Method for Deletion:** The `filter` method is a powerful way to remove elements from an array based on a condition. Here, we filter out anyone older than 30 using the condition `person.age <= 30`.
+
+- **Take Note of Bob:** Since we previously updated Bob's age from 30 to 31, he no longer meets the condition (`age <= 30`). As a result, Bob is not included in the final array, leaving only Alice, who still satisfies the age requirement. This change highlights how modifying data in previous steps can impact later operations.
+
 
 ## 5. **Add New Person and Sort People by Age**
 In this step, you will add a new person to the people array and then sort the array based on the age of each person in ascending order.
