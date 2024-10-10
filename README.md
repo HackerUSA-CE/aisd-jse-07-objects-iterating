@@ -22,7 +22,7 @@ Your project should be structured as follows:
 
 ```plaintext
 arrays-of-objects-practice/
-   app.js
+   index.js
    ```
 
 ## Instructions ✅
